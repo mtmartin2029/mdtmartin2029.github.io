@@ -1,0 +1,120 @@
+body {
+  background-color: #e8cfc1;
+}
+
+h2 {
+  margin-top: 0;   /* reduces the big space */
+}
+
+.row {
+  margin-top: 10px; /* optional nicer spacing */
+}
+
+/* NAVBAR */
+/* Laptop */
+.header-nav {
+  position: absolute;
+  width: 100%;
+  z-index: 10;
+  background: #523e27;
+  padding: 10px;
+}
+
+/* Tablet */
+@media (max-width: 992px) {
+  .header-nav {
+  }
+}
+
+/* Phone */
+@media (max-width: 576px) {
+  .header-nav {
+  }
+}
+
+/* SUBHEADER */
+/* Laptop */
+.header-subtext {
+  background-color: #523e27;
+  padding: 30px;
+  width: 100%;
+}
+
+.header-subtext h1 {
+  color: #e8cfc1;
+  font-size: 80px;
+}
+
+/* Tablet */
+@media (max-width: 992px) {
+  .header-subtext h1 {
+    font-size: 60px;
+    margin-top: 10px;
+  }
+}
+
+/* Phone */
+@media (max-width: 576px) {
+  .header-subtext h1 {
+    font-size: 40px;
+    margin-top: 30px;
+  }
+}
+
+/* Default (desktop) */
+.btn {
+  font-size: 1.5rem;
+  color: #e8cfc1;
+}
+
+/* Tablets */
+@media (max-width: 991px) {
+  .btn {
+    font-size: 16px;
+  }
+}
+
+/* Small phones */
+@media (max-width: 575px) {
+  .btn {
+    font-size: 6px;
+  }
+}
+
+/* Desktop (default) */
+h2 {
+  font-size: 50px;
+}
+
+p {
+  font-size: 18px;
+}
+
+/* Tablets */
+@media (max-width: 991px) {
+  h2 {
+    font-size: 35px;
+  }
+  p {
+    font-size: 16px;
+  }
+}
+
+/* Small phones */
+@media (max-width: 575px) {
+  h2 {
+    font-size: 30px;
+  }
+  p {
+    font-size: 14px;
+  }
+}
+
+h1 {
+  font-family: Verdana, Geneva, sans-serif;
+  font-weight: bold;
+}
+
+h2 {
+  font-family: Garamond, Georgia, serif;
+}
